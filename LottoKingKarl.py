@@ -31,6 +31,6 @@ i = 1
 while i < 7:
   print("LottoZahl ", i, ": ", LottoZahlenListe[i])
   i = i + 1
-  
-  # print the SuperZahl
-  print("SuperZahl: ", LottoZahlenListe[7], "\n")
+
+# print the SuperZahl
+print("SuperZahl: ", LottoZahlenListe[7], "\n")
