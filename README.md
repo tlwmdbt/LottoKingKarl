@@ -1,2 +1,5 @@
 # Lotto Zahlen Generator
-Small Python script for TI Nspire CX-T CAS II Calculators
+Python script wrtitten on for a TI Nspire CX-T CAS II Calculator to generate 7 unique numbers in a Lotto scheme. A self teaching project. Use it if you want.
+
+Kind regards
+Daniel
