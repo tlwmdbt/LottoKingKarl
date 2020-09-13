@@ -1,5 +1,5 @@
-# Lotto King Karl Zahlen Generator
-# Daniel Toschlaeger, 10.09.2020
+# Lotto King Karl Generator
+# by Daniel Toschlaeger, 10.09.2020, d.toschlaeger@gmail.com
 #
 #================================
 from math import *
