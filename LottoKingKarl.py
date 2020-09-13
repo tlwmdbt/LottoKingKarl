@@ -1,3 +1,4 @@
+# Platform: Nspire Calculators
 # Name: Lotto King Karl Generator
 # Written by: Daniel Toschlaeger, d.toschlaeger@gmail.com
 # Date: 10.09.2020
