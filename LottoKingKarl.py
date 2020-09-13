@@ -1,6 +1,7 @@
-# Lotto King Karl Generator
-# by Daniel Toschlaeger, 10.09.2020, d.toschlaeger@gmail.com
-#
+# Name: Lotto King Karl Generator
+# Written by: Daniel Toschlaeger, d.toschlaeger@gmail.com
+# Date: 10.09.2020
+# Description: Generate 7 unique numbers from 1-49
 #================================
 from math import *
 from random import *
