@@ -1,8 +1,4 @@
-# Platform: Nspire Calculators
-# Name: Lotto King Karl Generator
-# Written by: Daniel Toschlaeger, d.toschlaeger@gmail.com
-# Date: 10.09.2020
-# Description: Generate 7 unique numbers from 1-49
+# Lotto King Karl Zahlen Generator
 #================================
 from math import *
 from random import *
@@ -10,27 +6,28 @@ from random import *
 # Banner
 print("\n###", "Lotto King Karl", "###")
 
-# Empty list
+# Eine Liste
 LottoZahlenListe = []
 
-# 6 regular + 1 special number, all from within a range from 1 to 49
-while len(LottoZahlenListe) < 8:
-  LottoZahl=randint(1,49)
-
-  # check if number already in list
+# 6 Lottozahlen aus 1 - 49
+while len(LottoZahlenListe) < 7:
+  LottoZahl = randint(1,49)
+  
+  # und die zufällig generierte Zahl nicht schon in der Liste steht
   if LottoZahl not in LottoZahlenListe:
-    # if not already in list append to it
+    # die gnerierte Zahl an die Liste anhängen
     LottoZahlenListe.append(LottoZahl)
 
-# Output generated numbers #########################################
-#
-# counter for display loop
-i = 1
+# Super Zahl generieren aus 0 - 9
+SuperZahl = randint(0,9)
+LottoZahlenListe.append(SuperZahl)
 
-# Print the first 6 entries of the list
-while i < 7:
+# Lotto Zahlen Liste ausgeben ###########
+#
+# Die ersten 6 Einträge in der Liste ausgeben
+for i in range(0,6):
   print("LottoZahl ", i, ": ", LottoZahlenListe[i])
   i = i + 1
-  
-# print the SuperZahl
+
+# SuperZahl Ausgeben
 print("SuperZahl: ", LottoZahlenListe[7], "\n")
